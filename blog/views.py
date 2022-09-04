@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.utils import timezone
 from blog.models import Post
+from django.shortcuts import redirect
+from blog.forms import CommentForm
 
 # Create your views here.
 
